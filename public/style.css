@@ -71,4 +71,13 @@ body {
 
 #uiContainer {
   display: flex;
+  width: 300px;
+}
+
+#destinationSelectorContainer {
+  background-color: aquamarine;
+}
+
+#itineraryContainer {
+  background-color: aqua;
 }
