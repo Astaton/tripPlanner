@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #c1b5ad;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+.fullstack {
+  width: 32px;
+  height: 32px;
+  background-image: url("./../src/logo-only-FS.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.activity {
+  width: 32px;
+  height: 32px;
+  background-image: url("./../src/WbMOfMl.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hotel {
+  width: 32px;
+  height: 32px;
+  background-image: url("./../src/D9574Cu.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.restaurant {
+  width: 32px;
+  height: 32px;
+  background-image: url("./../src/cqR6pUI.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#headerContainer {
+  display: flex;
+}
+
+#navLinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navItem {
+  flex-basis: 50px;
+  width: 50px;
+  list-style-type: none;
+}
+
+#destinationSelectorContainer {
+  display: flex;
+}
+
+#contentContainer {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+#uiContainer {
+  display: flex;
+}
